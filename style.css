@@ -1,0 +1,168 @@
+body{
+    background-color: #d3d3d3;
+    background-image: url("https://media-public.canva.com/MADRQ0KCpfU/1/screen.png") ;  
+    
+}
+.navbar {
+    display: flex;
+    flex-wrap:wrap;
+    flex: auto;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+header{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+.notebook{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+padding-top: 10%;
+padding-left: 5%;
+
+
+}
+
+.notebook1{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+   max-width: 89%; 
+}
+.notebook2{
+    padding-top: 1%;
+    display: flex;
+    flex: auto;
+flex-wrap: wrap;
+max-width: 78%;    
+
+}
+.notebookimg{
+    position: relative;
+    text-align: center;
+}
+
+
+.centered{
+position: absolute;
+
+}
+.homeimg{
+padding-left: 33%;
+    padding-top: 10%;
+    min-width: 30%;
+    min-height: 40%;
+
+}
+.portfolioLayout{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+justify-content: center;
+align-content: center;
+}
+.websiteImage{
+    padding-left: 20%;
+    min-width: 60%;
+    min-height: 60%;
+    max-height: 60%;
+    max-width: 60%;
+    display: flex;    
+    flex: auto; 
+    padding-top: 10%;
+
+}
+.websiteSummary{
+    padding-left: 20%;
+    min-width: 30%;
+    max-height: 20%;
+    max-width: 55%;
+    display: flex;
+    flex: auto;
+
+
+}
+.abtImage1{
+    min-width: 30%;
+    min-height: 30%;
+    max-height: 30%;
+    max-width: 30%;
+    display: flex;
+    flex: auto;
+    margin-left: 2%;
+}
+.upperImages{
+    display: flex;
+}
+.contact{
+    padding-top: 8%;
+    justify-content: center;
+    display: flex;
+    min-width: 50%;
+    max-width: 50%;
+max-height: 90%;
+min-height: 90%;
+padding-left: 24%;
+align-content: space-around;
+}
+.contactimg{
+    max-width: 15%;
+    max-height: 5%;
+    padding-right: 5%;
+    
+}
+.AbtMeText{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 6%;
+}
+p{
+    
+    font-size: 125%;
+    font-family: 'Aleo', serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.resumetext{
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.headpaper{
+    position: absolute;
+    -webkit-transform:scaleY(-1)
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;  
+    position:absolute;
+    background-color: #f1f1f1;
+    min-width: 10%;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #D9C6B0;
+}
+.dropdown-hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropdown-content{display: block;}
+
